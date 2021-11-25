@@ -1,3 +1,4 @@
+**English** | [中文](./README.zh_CN.md)
 ## Introduction
 
 The project was built using create-vue `npm init vue@next` 

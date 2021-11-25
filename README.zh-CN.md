@@ -1,3 +1,4 @@
+**中文** | [English](./README.md)
 ## 简介
 
 该项目使用 create-vue `npm init vue@next` 构建的
