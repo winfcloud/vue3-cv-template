@@ -5,6 +5,8 @@ import router from './router'
 
 // svg 注册脚本
 import 'virtual:svg-icons-register';
+// 引入 tailwind
+import '@/style/tailwind.css'
 
 
 const app = createApp(App)
