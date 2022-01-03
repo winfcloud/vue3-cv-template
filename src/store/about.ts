@@ -1,12 +1,12 @@
 import { defineStore, acceptHMRUpdate } from 'pinia'
 
 export const useAboutStore = defineStore({
-  id:'about',
-  state:()=>({
-    name:'About',
-    msg:'This message in store'
+  id: 'about',
+  state: () => ({
+    name: 'About',
+    msg: 'This message in store',
   }),
-  actions:{}
+  actions: {},
 })
 
 if (import.meta.hot) {

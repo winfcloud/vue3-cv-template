@@ -1,12 +1,12 @@
-import { fileURLToPath } from 'url';
-import path from 'path';
+import { fileURLToPath } from 'url'
+import path from 'path'
 
-import { defineConfig } from 'vite';
-import vue from '@vitejs/plugin-vue';
-import vueJsx from '@vitejs/plugin-vue-jsx';
-import Components from 'unplugin-vue-components/vite';
-import viteSvgIcons from 'vite-plugin-svg-icons';
-import viteCompression from 'vite-plugin-compression';
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+import vueJsx from '@vitejs/plugin-vue-jsx'
+import Components from 'unplugin-vue-components/vite'
+import viteSvgIcons from 'vite-plugin-svg-icons'
+import viteCompression from 'vite-plugin-compression'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -38,4 +38,4 @@ export default defineConfig({
     open: true,
     cors: true,
   },
-});
+})

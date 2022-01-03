@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
     "baseUrl": "./", // 解析非相对模块的基地址，默认是当前目录
-    // "baseUrl": "src",
     "target": "esnext", //目标语言版本
     "useDefineForClassFields": true,
     "module": "esnext", // 指定生成但妈的模板标准
