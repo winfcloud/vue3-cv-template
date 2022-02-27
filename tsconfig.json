@@ -1,23 +1,14 @@
 {
-  "compilerOptions": {
-    "baseUrl": "./", // 解析非相对模块的基地址，默认是当前目录
-    "target": "esnext", //目标语言版本
-    "useDefineForClassFields": true,
-    "module": "esnext", // 指定生成但妈的模板标准
-    "moduleResolution": "node", // 模块解析策略
-    "isolatedModules": true,
-    "strict": true, // 开启所有严格的类型检查
-    "jsx": "preserve",
-    "sourceMap": true, // 生成目标文件的 sourceMap
-    "resolveJsonModule": true,
-    "esModuleInterop": true, // 允许export = 导出，由import frome 导入
-    "paths": { // 路径映射，相对于baseUrl
-      "@/*": ["src/*"]
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.vite-config.json"
     },
-    "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
-    "skipLibCheck": true,
-    "types": ["vite/client","node"] // 加载的声明文件包
-  },
-  "include": ["vite.config.*", "env.d.ts", "src/**/*", "src/**/*.vue"],
-  "exclude": ["node_modules"]
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.vitest.json"
+    }
+  ]
 }
