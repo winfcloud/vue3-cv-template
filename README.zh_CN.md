@@ -1,4 +1,5 @@
-**中文** | [English](./README.md)
+# **中文** | [English](./README.md)
+
 ## 简介
 
 该项目使用 create-vue `npm init vue@next` 构建的
@@ -6,6 +7,7 @@
 在此基础上，添加常用技术(多起来走两步)
 
 ## 功能
+
 - Vite
   - Vue JSX 支持
   - [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components) 组件自动按需引入，细节看文档
@@ -25,7 +27,6 @@
 - 总会用到的功能
   - axios
   - lodash
-
 
 <!-- 
 ## 开发

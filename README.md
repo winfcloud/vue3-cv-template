@@ -1,4 +1,5 @@
-**English** | [中文](./README.zh_CN.md)
+# **English** | [中文](./README.zh_CN.md)
+
 ## Introduction
 
 The project was built using create-vue `npm init vue@next` 
@@ -7,6 +8,7 @@ Templates based on Vite，Vue3，TypeScript
 Some new functions have been added on this basis 
 
 ## Features
+
 - Vite
   - Vue JSX Support
   - [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components) On-demand components auto importing for Vue.
@@ -23,10 +25,9 @@ Some new functions have been added on this basis
   - sass
   - PostCSS Vite support the project contains valid PostCSS config (any format supported by postcss-load-config, e.g. postcss.config.js), it will be automatically applied to all imported CSS.
 
-- Easy to use and common 
+- Easy to use and common
   - axios
   - lodash
-
 
 <!-- 
 ## Getting started
