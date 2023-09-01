@@ -5,12 +5,13 @@
 </template>
 
 <script lang="ts" setup>
-import { useAboutStore } from '@/store/about'
-const about = useAboutStore()
+import { useAboutStore } from '@/store/about';
+
+const about = useAboutStore();
 </script>
 
-<style>
-@media (min-width: 1024px) {
+<style scoped>
+@media (width >= 1024px) {
   .about {
     min-height: 100vh;
     display: flex;

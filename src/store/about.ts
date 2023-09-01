@@ -1,4 +1,4 @@
-import { defineStore, acceptHMRUpdate } from 'pinia'
+import { defineStore, acceptHMRUpdate } from 'pinia';
 
 export const useAboutStore = defineStore({
   id: 'about',
@@ -7,8 +7,8 @@ export const useAboutStore = defineStore({
     msg: 'This message in store',
   }),
   actions: {},
-})
+});
 
 if (import.meta.hot) {
-  import.meta.hot.accept(acceptHMRUpdate(useAboutStore, import.meta.hot))
+  import.meta.hot.accept(acceptHMRUpdate(useAboutStore, import.meta.hot));
 }

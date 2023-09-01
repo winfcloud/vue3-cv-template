@@ -5,18 +5,18 @@
 </template>
 
 <script lang="ts" setup>
-import { computed } from 'vue'
+import { computed } from 'vue';
 
 defineOptions({
   name: 'SvgIcon',
-})
+});
 
 interface Props {
-  prefix?: string
-  name?: string
-  color?: string
-  width?: string
-  height?: string
+  prefix?: string;
+  name?: string;
+  color?: string;
+  width?: string;
+  height?: string;
 }
 
 const props = withDefaults(defineProps<Props>(), {
@@ -25,7 +25,7 @@ const props = withDefaults(defineProps<Props>(), {
   color: '#000',
   width: '24',
   height: '24',
-})
+});
 
-const symbolId = computed(() => `#${props.prefix}-${props.name}`)
+const symbolId = computed(() => `#${props.prefix}-${props.name}`);
 </script>

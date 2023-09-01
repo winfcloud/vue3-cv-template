@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import WelcomeItem from './WelcomeItem.vue'
-import SvgIcon from './SvgIcon/index.vue'
+import WelcomeItem from './WelcomeItem.vue';
+import SvgIcon from './SvgIcon/index.vue';
 </script>
 
 <template>
@@ -22,13 +22,11 @@ import SvgIcon from './SvgIcon/index.vue'
     <template #heading>Tooling</template>
 
     This project is served and bundled with
-    <a href="https://vitejs.dev/guide/features.html" target="_blank">Vite</a>. The recommended IDE
-    setup is <a href="https://code.visualstudio.com/" target="_blank">VSCode</a> +
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>. If you need to test
-    your components and web pages, check out
-    <a href="https://www.cypress.io/" target="_blank">Cypress</a> and
-    <a href="https://docs.cypress.io/guides/component-testing/introduction" target="_blank"
-      >Cypress Component Testing</a
+    <a href="https://vitejs.dev/guide/features.html" target="_blank">Vite</a>. The recommended IDE setup is
+    <a href="https://code.visualstudio.com/" target="_blank">VSCode</a> +
+    <a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>. If you need to test your components and
+    web pages, check out <a href="https://www.cypress.io/" target="_blank">Cypress</a> and
+    <a href="https://docs.cypress.io/guides/component-testing/introduction" target="_blank">Cypress Component Testing</a
     >.
 
     <br />
@@ -46,8 +44,8 @@ import SvgIcon from './SvgIcon/index.vue'
     <a target="_blank" href="https://next.vuex.vuejs.org/">Vuex</a>,
     <a target="_blank" href="https://next.router.vuejs.org/">Vue Router</a>,
     <a target="_blank" href="https://next.vue-test-utils.vuejs.org/">Vue Test Utils</a>, and
-    <a target="_blank" href="https://github.com/vuejs/devtools">Vue Dev Tools</a>. If you need more
-    resources, we suggest paying
+    <a target="_blank" href="https://github.com/vuejs/devtools">Vue Dev Tools</a>. If you need more resources, we
+    suggest paying
     <a target="_blank" href="https://github.com/vuejs/awesome-vue">Awesome Vue</a>
     a visit.
   </WelcomeItem>
@@ -60,9 +58,8 @@ import SvgIcon from './SvgIcon/index.vue'
 
     Got stuck? Ask your question on
     <a target="_blank" href="https://chat.vuejs.org">Vue Land</a>, our official Discord server, or
-    <a target="_blank" href="https://stackoverflow.com/questions/tagged/vue.js">StackOverflow</a>.
-    You should also subscribe to
-    <a target="_blank" href="https://news.vuejs.org">our mailing list</a> and follow the official
+    <a target="_blank" href="https://stackoverflow.com/questions/tagged/vue.js">StackOverflow</a>. You should also
+    subscribe to <a target="_blank" href="https://news.vuejs.org">our mailing list</a> and follow the official
     <a target="_blank" href="https://twitter.com/vuejs">@vuejs</a>
     twitter account for latest news in the Vue world.
   </WelcomeItem>
@@ -73,8 +70,7 @@ import SvgIcon from './SvgIcon/index.vue'
     </template>
     <template #heading>Support Vue</template>
 
-    As an independent project, Vue relies on community backing for its sustainability. You can help
-    us by
+    As an independent project, Vue relies on community backing for its sustainability. You can help us by
     <a target="_blank" href="https://vuejs.org/support-vuejs/">becoming a sponsor</a>.
   </WelcomeItem>
 </template>

@@ -27,4 +27,4 @@ module.exports = {
     'footer-leading-blank': [1, 'always'],
     'header-max-length': [2, 'always', 72],
   },
-}
+};
