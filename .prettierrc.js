@@ -1,5 +1,4 @@
-module.exports = {
-  $schema: 'https://json.schemastore.org/prettierrc',
+const config = {
   printWidth: 120, // 一行最多 120 字符
   tabWidth: 2, // 使用 2 个空格缩进
   useTabs: false, // 不使用缩进符，而使用空格
@@ -20,3 +19,5 @@ module.exports = {
   vueIndentScriptAndStyle: false, // vue 文件中的 script 和 style 内不用缩进
   endOfLine: 'lf', // 换行符使用 lf
 };
+
+module.exports = config;
