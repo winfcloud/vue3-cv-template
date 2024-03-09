@@ -1,10 +1,8 @@
 # vue3-cv-template
 
-## **English** | [中文](./README.zh_CN.md)
-
 ## Introduction
 
-The project was built using create-vue `npm init vue@next`
+The project was built using create-vue `npm create vue@latest`
 
 Templates based on Vite，Vue3，TypeScript
 Some new functions have been added on this basis

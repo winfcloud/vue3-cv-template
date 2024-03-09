@@ -3,9 +3,6 @@ require('@rushstack/eslint-patch/modern-module-resolution');
 
 module.exports = {
   root: true,
-  parserOptions: {
-    ecmaVersion: 'latest',
-  },
   extends: [
     'eslint:recommended',
     'eslint-config-airbnb-base',
@@ -15,6 +12,9 @@ module.exports = {
     '@vue/eslint-config-prettier/skip-formatting',
     // '@vue/eslint-config-prettier',
   ],
+  parserOptions: {
+    ecmaVersion: 'latest',
+  },
   // env: {
   //   'vue/setup-compiler-macros': true,
   //   browser: true,

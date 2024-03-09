@@ -1,3 +1,4 @@
+/** @type {import("prettier").Config} */
 const config = {
   printWidth: 120, // 一行最多 120 字符
   tabWidth: 2, // 使用 2 个空格缩进
@@ -20,4 +21,4 @@ const config = {
   endOfLine: 'lf', // 换行符使用 lf
 };
 
-module.exports = config;
+export default config;

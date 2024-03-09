@@ -11,6 +11,7 @@ node_modules
 .DS_Store
 dist
 dist-ssr
+coverage
 *.local
 
 /cypress/videos/
@@ -27,6 +28,10 @@ dist-ssr
 *.sln
 *.sw?
 
+*.tsbuildinfo
+
+test-results/
+playwright-report/
 #
 package-lock.json
 .eslintcache

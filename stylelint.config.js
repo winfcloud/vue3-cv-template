@@ -1,4 +1,5 @@
-module.exports = {
+/** @type {import('stylelint').Config} */
+const config = {
   defaultSeverity: 'error',
   extends: [
     'stylelint-config-standard',
@@ -31,3 +32,5 @@ module.exports = {
     'import-notation': null, // import导入规则和 less 导入有冲突
   },
 };
+
+export default config;
