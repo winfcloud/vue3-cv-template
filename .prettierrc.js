@@ -1,5 +1,6 @@
 /** @type {import("prettier").Config} */
 const config = {
+  $schema: 'https://json.schemastore.org/prettierrc',
   printWidth: 120, // 一行最多 120 字符
   tabWidth: 2, // 使用 2 个空格缩进
   useTabs: false, // 不使用缩进符，而使用空格
